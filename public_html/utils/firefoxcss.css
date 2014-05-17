@@ -1,0 +1,152 @@
+/* 
+    Created on : 13 Μαϊ 2014, 5:06:25 μμ
+    Author     : Phivos Phivou <fivou@csd.uoc.gr>
+*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+ ::selection {
+     color: #FFFFFF;
+     background: #0aa900
+ }
+::-moz-selection {
+    color: #FFFFFF;
+    background: #0aa900;
+}
+
+
+#head {
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: Verdana;
+    font-size: 120%;
+    text-align: center;
+}
+#nav {
+    z-index: 1;
+    float: top;
+    top: 50px;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #0a890e;
+    color: white;
+    font-family: Verdana;
+    padding: 0px;
+    padding-top: 10px;
+}
+#body {
+    z-index: 2;
+    top: 90px;
+    position: relative;
+    width: 100%;
+    min-height: 700px;
+    background-color: orange;
+    color: white;
+}
+
+#nav a{
+    text-decoration: none;
+    color: white;
+    height:  available;
+    padding: 5px 10px 5px 10px;
+}
+#nav a:last-of-type{
+}
+#nav a:hover{
+    background-color: black;
+}
+/*#nav ul{
+    margin: 0;
+    height: 100%;
+    text-align: right;
+    padding: 0;
+    width: 65%;
+    float: left;
+    text-align:  center;
+}
+#nav ul li{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width:  fit-content;
+    display: inline-block;
+    
+    
+}
+
+#nav ul li select{
+    width: 90px;
+    bottom: 20px;
+    border: 0 !important;
+    background-repeat: no-repeat;
+    background-position: 55px 5px;
+    background-size: 15px 15px;
+    text-align: center;
+    display: inherit;
+    text-indent: 0.01px;
+    text-overflow: "";
+    cursor: pointer;
+    color: white;
+    padding: 10px 10px -10px 10px;
+    margin-top: -10px;
+}
+#nav ul li select option{
+    idth: available;
+    margin-left: 0;
+    background-color: #444444;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border: 0px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+#nav ul li select option:last-of-type{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#nav ul li a{
+    height: 100%;
+    margin-left: 0;
+    margin-right: -6px;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-right: 0; 
+    text-decoration: none;
+}
+#nav ul li a:hover{
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.1);
+    background:  #006600;
+    background-color: #006600;
+    color: white;
+}*/
+
+#nav form{
+    margin-top: 8px;
+    width: 30%;
+    float: right;
+}
+#nav form input{
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.1);
+    font-family: Ubuntu;
+    font-size: 15px;
+    color: #006600;
+    background-color: white;
+    border: 0px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+#nav form input[type = submit]{
+    height: 50%;
+    width: auto;
+}
+#nav form input[type=text]{
+    height: 50%;
+    width: 80%;
+}

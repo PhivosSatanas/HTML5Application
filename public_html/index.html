@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Phivos HTML5 Project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script type="text/javascript" src="utils/browser.js"></script>
+    </head>
+    <body>
+        <div id="head">TODO write content</div>
+        <div id="nav">
+            <a href="#">News</a>
+            <a href="#">Articles</a>
+            <a href="#">Match Program</a>
+            <a href="#">Results</a>
+            <a href="#">Results</a>
+            <a href="#">Results</a>
+            <a href="#">Results</a>
+            <a href="#">Other Sports</a>
+            <form>
+                <input type="text" placeholder="Search Terms"/>
+                <input type="submit" value="Search"/>
+            </form>
+        </div>
+        <div id="body">
+            <input type="text" id="name" onkeyup="document.getElementById('link').setAttribute('href', 'newhtml.html?' + document.getElementById('name').value);"><br>
+            <a href="newhtml.html" id="link">Go to next web page</a>
+        </div>
+    </body>
+</html>
